@@ -2,10 +2,79 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  line-height: 1.5;
+  background-color: #f0eee8;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.link-card {
+dl {
+  display: block;
+  margin: 1rem 0;
+  font-size: .875rem;
+  padding: 1rem 0;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #9a816d;
+}
 
+dt {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.link-card h2 {
+  font-size: 1.5rem;
+  color: #512200;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.link-card {
+  display: block;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  color: #512200;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #f0eee8;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
